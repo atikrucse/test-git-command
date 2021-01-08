@@ -1,5 +1,21 @@
+*{
+    margin: 0;
+}
 .duke{
     display: block;
     margin: auto;
     width: 50%;
+}
+.f-header{
+    position: sticky;
+    top: 0px;
+    left: 500px;
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+div{
+    height: 500px;
 }
