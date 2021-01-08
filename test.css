@@ -17,5 +17,49 @@
     font-weight: 900;
 }
 div{
-    height: 500px;
+    height: 200px;
+}
+.normal-1{
+    height: 150px;
+    background-color: teal;
+    width: 200px;
+}
+.p-relative{
+    height: 150px;
+    background-color: thistle;
+    width: 200px;
+    position: relative;
+    left: 200px;
+}
+.normal-2{
+    height: 150px;
+    background-color: tomato;
+    width: 200px;
+}
+.hover{
+    text-align: center;
+}
+.hover p{
+    display: none;
+}
+.hover:hover p{
+    color: red;
+    display: block;
+}
+.abc{
+    text-decoration: none;
+}
+.abc:visited{
+    color: red;
+}
+.focus{
+    text-align: center;
+    background-color: silver;
+}
+.focus:focus{
+    color: white;
+    background-color: tomato;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Pirata One', cursive;
 }
